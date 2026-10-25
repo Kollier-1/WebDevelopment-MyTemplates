@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina {
+    width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 47px;
+    background-color: #08085c;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #222222;
+}
+
+.header h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.content {
+    width: 100%;
+    min-height: 317px;
+    display: flex;
+}
+
+.main-section {
+    width: 80%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.article {
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.main-image {
+    display: block;
+
+    width: 265px;
+    height: 148px;
+
+    object-fit: cover;
+
+    margin: 0 auto 15px auto;
+}
+
+.article p {
+    margin: 10px 0;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    line-height: 1.35;
+
+    text-align: justify;
+}
+
+.side-menu {
+    width: 20%;
+    background-color: #075d0b;
+    box-sizing: border-box;
+
+    border-left: 1px solid #222222;
+}
+
+.side-menu nav {
+    width: 100%;
+}
+
+.side-menu ul {
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.side-menu a {
+    display: block;
+
+    height: 25px;
+
+    padding-top: 7px;
+
+    box-sizing: border-box;
+
+    color: white;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    border-bottom: 1px solid #0a7310;
+}
+
+.side-menu a:hover {
+    background-color: #0b7510;
+}
+
+.side-image {
+    display: block;
+
+    width: 100%;
+    height: 96px;
+
+    object-fit: cover;
+
+    margin-top: 0;
+}
+
+.footer {
+    height: 70px;
+
+    background-color: #111111;
+
+    border-top: 1px solid #222222;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    width: 185px;
+    height: 42px;
+
+    background-color: #1c1c1c;
+
+    border: 1px solid #292929;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+}
+
+.social-links img {
+    width: 23px;
+    height: 23px;
+
+    object-fit: contain;
+
+    filter: grayscale(100%);
+
+    transition: filter 0.3s ease,
+                transform 0.3s ease;
+}
+
+.social-links img:hover {
+    filter: grayscale(0%);
+
+    transform: scale(1.1);
+}

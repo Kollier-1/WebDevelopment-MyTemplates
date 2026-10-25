@@ -1,0 +1,182 @@
+/* PAGE 1 STYLES */
+        body {
+            margin: 0;
+            background-color: #e8f1f8;
+            font-family: Arial, sans-serif;
+            color: #222;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: white;
+            border: 2px solid #2c6e91;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c6e91;
+        }
+
+        .box {
+            width: 90%;
+            min-height: 150px;
+            margin: 25px auto;
+            padding: 20px;
+            background-color: #d8ecf7;
+            border: 2px solid #2c6e91;
+            box-sizing: border-box;
+        }
+
+        .relative-box {
+            position: relative;
+            left: 40px;
+            top: 15px;
+        }
+
+        .image {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid #2c6e91;
+            position: relative;
+            left: 20px;
+            top: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+/* PAGE 2 STYLES */
+        body {
+            margin: 0;
+            background-color: #f4e9e9;
+            font-family: Georgia, serif;
+            color: #222;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border: 3px solid #9b3d3d;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            color: #9b3d3d;
+        }
+
+        .box {
+            width: 90%;
+            min-height: 170px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #f8dede;
+            border: 2px solid #9b3d3d;
+            box-sizing: border-box;
+        }
+
+        .absolute-box {
+            position: absolute;
+            width: 280px;
+            height: 160px;
+            right: 30px;
+            top: 150px;
+            background-color: #f2bebe;
+            padding: 15px;
+            border: 3px solid #9b3d3d;
+            box-sizing: border-box;
+        }
+
+        .absolute-box p {
+            font-size: 14px;
+        }
+
+        .image {
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            border: 3px solid #9b3d3d;
+            position: absolute;
+            left: 40px;
+            bottom: 40px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .space {
+            height: 180px;
+        }
+
+/* PAGE 3 STYLES */
+        body {
+            margin: 0;
+            background-color: #edf4e5;
+            font-family: Verdana, sans-serif;
+            color: #222;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: white;
+            border: 3px solid #4d7c3c;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4d7c3c;
+        }
+
+        .box {
+            width: 90%;
+            min-height: 180px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #e0efd7;
+            border: 2px solid #4d7c3c;
+            box-sizing: border-box;
+        }
+
+        .fixed-element {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 220px;
+            padding: 15px;
+            background-color: #9fc78d;
+            border: 3px solid #365a2b;
+            box-sizing: border-box;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .image {
+            width: 200px;
+            height: 130px;
+            object-fit: cover;
+            border: 3px solid #4d7c3c;
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            z-index: 5;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        .extra-space {
+            height: 500px;
+        }

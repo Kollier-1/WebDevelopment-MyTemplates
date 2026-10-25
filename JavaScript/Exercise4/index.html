@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 4 - Trip Cost</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Trip Cost Calculator</h1>
+    <p>Fuel efficiency: 35 km per gallon. Regular gasoline price: $3.45 per gallon.</p>
+    <form id="tripForm">
+      <label for="distance">One-way distance (kilometers)</label>
+      <input type="number" id="distance" min="0.01" step="any" required>
+      <button type="submit">Calculate Cost</button>
+    </form>
+    <section id="result" class="result" aria-live="polite"></section>
+  </main>
+</body>
+</html>

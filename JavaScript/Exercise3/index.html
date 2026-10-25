@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 3 - Money Accumulator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Money Accumulation Calculator</h1>
+    <p>Enter the amounts you want to add. The total updates each time you click the button.</p>
+    <form id="amountForm">
+      <label for="amount">Amount to add ($)</label>
+      <input type="number" id="amount" min="0" step="any" required>
+      <button type="submit">Add Amount</button>
+    </form>
+    <p id="result" class="result" aria-live="polite">Running total: $0.00</p>
+  </main>
+</body>
+</html>

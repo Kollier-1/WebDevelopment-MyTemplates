@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 5 - Even and Odd Numbers</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Even and Odd Number Generator</h1>
+    <form id="numberForm">
+      <label for="lowerLimit">Lower limit (integer)</label>
+      <input type="number" id="lowerLimit" step="1" required>
+      <label for="upperLimit">Upper limit (integer)</label>
+      <input type="number" id="upperLimit" step="1" required>
+      <button type="submit">Generate Range</button>
+    </form>
+    <section id="result" class="result" aria-live="polite"></section>
+  </main>
+</body>
+</html>

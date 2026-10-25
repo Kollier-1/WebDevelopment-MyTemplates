@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 6 - Discounts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Purchase Discount Calculator</h1>
+    <form id="discountForm">
+      <label for="customerName">Customer name</label>
+      <input type="text" id="customerName" maxlength="100" required>
+      <label for="purchaseTotal">Purchase total ($)</label>
+      <input type="number" id="purchaseTotal" min="0" step="0.01" required>
+      <button type="submit">Calculate Discount</button>
+    </form>
+    <section id="result" class="result" aria-live="polite"></section>
+  </main>
+</body>
+</html>

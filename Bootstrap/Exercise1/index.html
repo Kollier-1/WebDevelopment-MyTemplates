@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise 1 - Bootstrap Form 5.3</title>
+    <!-- Bootstrap CSS local -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container my-5">
+        <div class="card shadow-sm p-4">
+            <h2 class="mb-4 text-secondary">Customer Registration</h2>
+            <form>
+                <div class="row g-3">
+                    <!-- Name -->
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="name" placeholder="Contact name" required>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="col-md-6">
+                        <label for="address" class="form-label">Address*</label>
+                        <input type="text" class="form-control" id="address" placeholder="Street address" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="col-md-3">
+                        <label for="phone" class="form-label">Phone*</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="555-0100" required>
+                    </div>
+
+                    <!-- Mobile phone -->
+                    <div class="col-md-3">
+                        <label for="mobilePhone" class="form-label">Mobile Phone</label>
+                        <input type="tel" class="form-control" id="mobilePhone" placeholder="555-0101">
+                    </div>
+
+                    <!-- Business registration number -->
+                    <div class="col-md-3">
+                        <label for="businessRegistrationNumber" class="form-label">Business Registration No.</label>
+                        <input type="text" class="form-control" id="businessRegistrationNumber" placeholder="000000">
+                    </div>
+
+                    <!-- Tax identification number -->
+                    <div class="col-md-3">
+                        <label for="taxId" class="form-label">Tax ID</label>
+                        <input type="text" class="form-control" id="taxId" placeholder="000-000-000">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="demo@example.com">
+                    </div>
+
+                    <!-- Website -->
+                    <div class="col-md-3">
+                        <label for="website" class="form-label">Website</label>
+                        <input type="url" class="form-control" id="website" placeholder="https://example.com">
+                    </div>
+
+                    <!-- Referred by -->
+                    <div class="col-md-3">
+                        <label for="referrer" class="form-label">Referred By</label>
+                        <input type="text" class="form-control" id="referrer" placeholder="Referring customer">
+                    </div>
+
+                    <!-- Customer type -->
+                    <div class="col-md-3">
+                        <label for="customerType" class="form-label">Customer Type</label>
+                        <select class="form-select" id="customerType">
+                            <option selected>Distributor</option>
+                            <option value="1">Wholesaler</option>
+                            <option value="2">Retailer</option>
+                        </select>
+                    </div>
+
+                    <!-- Credit access -->
+                    <div class="col-md-3">
+                        <label class="form-label d-block">Credit Access</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="creditAccess" id="creditAccessYes" value="yes">
+                            <label class="form-check-label" for="creditAccessYes">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="creditAccess" id="creditAccessNo" value="no" checked>
+                            <label class="form-check-label" for="creditAccessNo">No</label>
+                        </div>
+                    </div>
+
+                    <!-- Direct customer contact -->
+                    <div class="col-md-3">
+                        <label for="directContact" class="form-label">Direct Customer Contact</label>
+                        <select class="form-select" id="directContact">
+                            <option selected disabled>Select a contact...</option>
+                            <option value="1">Contact 1</option>
+                            <option value="2">Contact 2</option>
+                        </select>
+                    </div>
+
+                    <!-- Description -->
+                    <div class="col-md-6">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" id="description" rows="3"></textarea>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="mt-4">
+                    <button type="reset" class="btn btn-outline-secondary me-2">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Local Bootstrap bundle includes Popper -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

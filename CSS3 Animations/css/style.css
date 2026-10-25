@@ -1,0 +1,106 @@
+/* STYLE EXERCISE 1 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f5f9;
+}
+
+.button {
+    background-color: #2563eb;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #7c3aed;
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* STYLE EXERCISE 2 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff7ed;
+}
+
+.banner {
+    background-color: #ea580c;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* STYLE EXERCISE 3 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f172a;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    box-shadow: 0 0 20px green;
+    animation: alert 2s linear infinite;
+}
+
+@keyframes alert {
+    0% {
+        background-color: green;
+        transform: scale(1);
+        box-shadow: 0 0 20px green;
+    }
+
+    33% {
+        background-color: yellow;
+        transform: scale(1.1);
+        box-shadow: 0 0 30px yellow;
+    }
+
+    66% {
+        background-color: red;
+        transform: scale(0.95);
+        box-shadow: 0 0 30px red;
+    }
+
+    100% {
+        background-color: green;
+        transform: scale(1);
+        box-shadow: 0 0 20px green;
+    }
+}
